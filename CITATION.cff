@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: Feasibility of True Muonium Photoproduction Repository
+message: "If you use this repository, please cite it as follows."
+type: software
+
+authors:
+  - family-names: Schulthess
+    given-names: Ivo
+    orcid: https://orcid.org/0000-0002-5621-2462
+
+date-released: 2026-08-10
+version: 0.1
+
+repository-code: https://github.com/ivoschulthess/trueMuonium
