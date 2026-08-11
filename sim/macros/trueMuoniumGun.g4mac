@@ -1,0 +1,36 @@
+/run/initialize
+
+/tracking/verbose 1
+
+# Trigger levels:
+# 0 -- No events saved
+# 1 -- Only save events with muon pair production
+# 2 -- Save all events
+/UserEvent/VerboseLevel 1
+/UserEvent/TriggerLevel 1
+/UserEvent/ROOTFileName output.root
+
+#TrueMuonium BEAM
+#particle
+/true-muonium/generate 1
+/true-muonium/spin 1
+
+/gps/pos/type Point
+/gps/pos/centre 0.0 0.0 -2 cm
+
+#angular spread
+/gps/ang/type beam1d
+/gps/ang/rot1 -1 0 0
+/gps/ang/rot2 0 1 0
+
+#energy-spectrum
+/gps/energy    400. MeV
+
+/random/setSeeds 51 1
+
+/geometry/test/run
+
+/run/printProgress 1
+/run/beamOn 1
+
+exit

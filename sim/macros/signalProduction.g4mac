@@ -1,0 +1,49 @@
+# [TargetConstruction.cc] TargetMaterial = mainConstruction->GetGeneralLead();
+# [TargetConstruction.cc] TargetDepth = 2 * dissLength;
+# [RunAction.cc] BiasFactor = 1.e6;
+
+/run/initialize
+
+/tracking/verbose 0
+
+# Verbove levels:
+# 0 -- no additional output
+# 1 -- additional info
+# 2 -- detailed info
+/UserEvent/VerboseLevel 0
+
+# Trigger levels:
+# 0 -- No events saved
+# 1 -- Only save events with muon pair production
+# 2 -- Save all events
+/UserEvent/TriggerLevel 1
+
+/UserEvent/ROOTFileName tm.root
+
+#GAMMA BEAM
+#particle
+/gps/particle gamma
+
+/gps/pos/type Point
+/gps/pos/centre 0.0 0.0 -10 cm
+
+#angular spread
+/gps/ang/type beam1d
+/gps/ang/rot1 -1 0 0
+/gps/ang/rot2 0 1 0
+
+#energy-spectrum
+#/gps/energy    300. MeV
+
+/gps/ene/type   Gauss
+/gps/ene/mono   300. MeV
+/gps/ene/sigma   30. MeV
+
+/random/setSeeds 1000 2000
+
+/geometry/test/run
+
+/run/printProgress 10000000
+/run/beamOn 1000000000
+
+exit

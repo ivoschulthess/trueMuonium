@@ -13,6 +13,7 @@ The study investigates the feasibility of producing low-energy true muonium (TM)
 
 The repository contains:
 
+- the Geant4 source code and example macro files used to generate the simulated data;
 - preprocessed simulation data for the TM signal and electron--positron background;
 - analysis notebooks used to process the simulated data and calculate the observables presented in the paper.
 

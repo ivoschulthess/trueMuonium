@@ -1,0 +1,12 @@
+#!/bin/sh
+# Use LCG for Geant4 and ROOT dependencies
+# source /cvmfs/sft.cern.ch/lcg/views/setupViews.sh LCG_107 x86_64-el9-gcc14-opt
+export G4VIS_USE=1
+echo
+echo "Configuring with the following package locations taken from LCG:"
+echo
+# Print path to Geant4 and ROOT (if you wish to use a different geant4 version modify this script)
+echo ${G4INSTALL}
+echo ${ROOTSYS}
+echo
+./configure --with-geant4=${G4INSTALL} --with-root
