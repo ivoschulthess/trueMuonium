@@ -1,6 +1,6 @@
 # Feasibility of Low-Energy True Muonium Photoproduction
 
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.21873825.svg)](https://doi.org/10.5281/zenodo.21873825)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21873825-blue)](https://doi.org/10.5281/zenodo.21873825)
 [![Release](https://img.shields.io/github/v/release/ivoschulthess/trueMuonium)](https://github.com/ivoschulthess/trueMuonium/releases)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ivoschulthess/trueMuonium/HEAD?labpath=analysis.ipynb)
 
