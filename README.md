@@ -29,7 +29,7 @@ A version of this repository corresponding to the published analysis is archived
 
 ```bibtex
 @misc{schulthess_trueMuoniumCode_2026,
-  author       = {Ivo Schulthess},
+  author       = {Schulthess, Ivo and Banto Oberhauser, Benjamin},
   title        = {Feasibility of True Muonium Photoproduction Repository},
   year         = {2026},
   publisher    = {Zenodo},
@@ -41,7 +41,7 @@ A version of this repository corresponding to the published analysis is archived
 
 ## Related publication
 
-I. Schulthess, B. B. Oberhauser, and P. Crivelli,  
+I. Schulthess, B. Banto Oberhauser, and P. Crivelli,  
 [*Feasibility of Low-Energy True Muonium Photoproduction*](https://arxiv.org/abs/2605.16557),  
 arXiv:2605.16557, 2026.
 
